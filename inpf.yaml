@@ -1,0 +1,15 @@
+CREDENTIALS:
+  ID :
+  Password :
+NUMBER_PROCESSES : 3
+MODULE : junos
+HOSTS:
+  24.58.26.130
+  65.189.178.87
+  65.189.178.50
+  65.189.178.68
+  65.189.178.72
+  65.189.176.10
+EXECUTE:
+  generate_sfp_report
+  dpc_memory

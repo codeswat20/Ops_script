@@ -1,0 +1,6 @@
+#note : Please mention generate report in the form of 'generate_<type-of-report>_report'  as a key and
+#map specified function name as value which will execute against all collected data
+generate_sfp_report : sfp_data
+check_version : get_version
+check_hostname : get_hostname
+dpc_memory : dpc_mem
